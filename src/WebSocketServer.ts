@@ -1,5 +1,5 @@
-import { RoomManager } from "./RoomManager";
-import { SimpleWebSocket } from "./SimpleWebSocket";
+import { RoomManager } from "./RoomManager.ts";
+import { SimpleWebSocket } from "./SimpleWebSocket.ts";
 
 export class WebSocketServer{
     private rooms = new RoomManager();

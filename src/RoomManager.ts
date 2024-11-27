@@ -1,5 +1,5 @@
-import { SimpleWebSocket } from "./SimpleWebSocket";
-import { EventEmitter } from "./EventEmitter";
+import { SimpleWebSocket } from "./SimpleWebSocket.ts";
+import { EventEmitter } from "./EventEmitter.ts";
 
 export class RoomManager extends EventEmitter{
   private rooms : Map<string,Set<SimpleWebSocket>> = new Map();
