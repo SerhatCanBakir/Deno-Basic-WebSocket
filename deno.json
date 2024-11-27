@@ -1,0 +1,11 @@
+{
+  "name": "@serhatcanbakir/deno-basic-websocket",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": {
+    "./RoomManager": "./src/RoomManager.ts",
+    "./SocketClient": "./src/SocketClient.ts",
+    "./WebSocketServer": "./src/WebSocketServer.ts",
+    "." : "./src/all.ts"
+  }
+}
